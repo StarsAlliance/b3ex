@@ -28,9 +28,10 @@ from types import StringType
 
 
 ## url from where we can get the latest B3 version number
-URL_B3_LATEST_VERSION = 'http://master.bigbrotherbot.net/version.json'
+URL_B3_LATEST_VERSION = 'http://help.aunited.ru/b3/version.json'
 
 # supported update channels
+UPDATE_CHANNEL_LTS = 'lts'
 UPDATE_CHANNEL_STABLE = 'stable'
 UPDATE_CHANNEL_BETA = 'beta'
 UPDATE_CHANNEL_DEV = 'dev'
