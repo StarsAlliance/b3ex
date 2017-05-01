@@ -17,7 +17,7 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 __author__  = 'ThorN'
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 timezones = {
     'A' : +1,
@@ -31,7 +31,9 @@ timezones = {
     'AST' : -4,
     'AWST' : +8,
     'B' : +2,
+    'BDT' : +6,
     'BST' : +1,
+    'BTT' : +6,
     'C' : +3,
     'CDT' : -5,
     'CEDT' : +2,
@@ -48,6 +50,7 @@ timezones = {
     'EST' : -5,
     'F' : +6,
     'G' : +7,
+    'GALT': +6,
     'GMT' : 0,
     'H' : +8,
     'HAA' : -3,
@@ -67,14 +70,17 @@ timezones = {
     'HNT' : -3.5,
     'HNY' : -9,
     'I' : +9,
-    'IST' : +1,
+    'IST' : +2,
+    'JST' : +9,
     'K' : +10,
     'L' : +11,
     'M' : +12,
     'MDT' : -6,
     'MESZ' : +2,
     'MEZ' : +1,
-    'MST' : -7,
+    'MSK' : +3,
+    'MST' : +6.5,
+    'MT': -7,
     'N' : -1,
     'NDT' : -2.5,
     'NFT' : +11.5,
