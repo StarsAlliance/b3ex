@@ -1,0 +1,40 @@
+<configuration plugin="votePlugin">
+    <settings name="commands">
+        <!--
+        Define here what minimum group users must be in to use commands.
+
+        Groups are (keyword / level : description)
+        ==============================================
+        superadmin / 100 : Super admin (server owner)
+        senioradmin / 80 : Senior admins
+        fulladmin / 60   : Full admins
+        admin / 40       : Admins
+        mod / 20         : Moderators
+        reg / 2          : Regular players (VIP)
+        user / 1         : Registered players (those who typed !register)
+        guest / 0        : Unregistered players
+        -->
+		<set name="veto">80</set>
+        <set name="maprestart">80</set>
+		<set name="maplist-mlist">1</set>
+		<set name="votemap-vm">1</set>
+		<set name="votestatus-vs">1</set>
+		<set name="voteyes-yes">1</set>
+		<set name="voteno-no">1</set>
+    </settings>
+    <settings name="settings">
+        <set name="voteTime">45</set>
+        <set name="votetimestart">120</set>
+        <set name="minVoteRatio">2</set>
+	</settings>
+    <maps>
+        <map>mp_crash</map>
+        <map>mp_strike</map>
+        <map>mp_broadcast</map>
+        <map>mp_citystreets</map>
+        <map>mp_backlot</map>
+        <map>mp_showdown</map>
+        <map>mp_vacant</map>
+        <map>mp_crossfire</map>
+    </maps>
+</configuration>
