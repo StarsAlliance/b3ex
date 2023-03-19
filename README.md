@@ -1,4 +1,4 @@
-BigBrotherBot Extended (B3EX) at www.aunited.ru
+BigBrotherBot Extended (B3EX) at app.starsa.ru
 ===========================================
 
 The BigBrotherBot Extended (B3EX) based on BigBrotherBot (b3) is a game administration project for advanced game administrators and developers. It provides automatic game administration features that can be configured to a high degree.
@@ -12,3 +12,4 @@ B3 Developers: _ThorN, xlr8or, ttlogic, Courgette, Bakes, spacepig, Durzo, eire.
 
 B3EX Developers: DragonZX, MadPO
 Plugin Developers: MadPO
+

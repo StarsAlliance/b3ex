@@ -2,17 +2,17 @@
     "B3": {
         "channels": {
             "beta": {
-                "url": "https://goo.gl/nvgHWG", 
+                "url": "https://app.starsa.ru/b3/beta/", 
                 "latest-version": "2.0.0",
                 "src-dl": "https://github.com/BigBrotherBot/big-brother-bot/archive/v1.10.10.zip"
             }, 
             "dev": {
-                "url": "http://files.cucurb.net/b3/daily/", 
+                "url": "https://app.starsa.ru/b3/dev/", 
                 "latest-version": "2.0.0",
                 "src-dl": "http://files.cucurb.net/b3/daily/b3-1.10.11dev.daily443-20160320.zip"
             }, 
             "stable": {
-                "url": "https://goo.gl/nvgHWG", 
+                "url": "https://app.starsa.ru/b3/stable/", 
                 "latest-version": "2.0.0",
                 "src-dl": "https://github.com/BigBrotherBot/big-brother-bot/archive/v1.10.10.zip"
             }

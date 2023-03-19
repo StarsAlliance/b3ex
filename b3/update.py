@@ -28,7 +28,7 @@ from types import StringType
 
 
 ## url from where we can get the latest B3 version number
-URL_B3_LATEST_VERSION = 'http://help.aunited.ru/b3/version.json'
+URL_B3_LATEST_VERSION = 'http://app.starsa.ru/b3/version.json'
 
 # supported update channels
 UPDATE_CHANNEL_LTS = 'lts'
@@ -52,6 +52,7 @@ class B3version(version.StrictVersion):
             1.0b1
             1.0b3
             1.9.0dev7.daily21-20121004
+            2.0
         And make sure that any 'dev' prerelease is inferior to any 'alpha' prerelease
         """
 
@@ -205,7 +206,7 @@ def checkUpdate(currentVersion, channel=None, singleLine=True, showErrormsg=Fals
             try:
                 latestUrl = version_info['B3']['channels'][channel]['url']
             except KeyError:
-                latestUrl = "www.bigbrotherbot.net"
+                latestUrl = "app.starsa.ru"
 
             not singleLine and sys.stdout.write("latest B3 %s version is %s\n" % (channel, latestVersion))
             _lver = B3version(latestVersion)
